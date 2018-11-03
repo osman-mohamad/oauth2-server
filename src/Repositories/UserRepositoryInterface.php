@@ -28,6 +28,7 @@ interface UserRepositoryInterface extends RepositoryInterface
         $username,
         $password,
         $grantType,
-        ClientEntityInterface $clientEntity
+        ClientEntityInterface $clientEntity,
+        $provider
     );
 }
